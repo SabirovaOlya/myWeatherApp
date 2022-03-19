@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <!-- style -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container row align-items-center justify-content-center ">
+    <h2 class="title-main">Weather App</h2>
+        <!-- Searcher -->
+    <div class="searcher row align-items-center justify-content-center">
+        <div class="search-box between">
+            <input type="search" placeholder="Enter the name of the city..." class="search-input " />
+            <button class="search-button">
+                <i class='bx bx-search-alt-2'></i>
+            </button>
+    </div>
+
+     <!-- Loader -->
+    <div class="loader">
+                <img src="./img/Spinner-1s-200px.svg" alt="" class="loader-image">
+    </div>
+
+
+    <div class="col-12 box-info day">
+
+        <!-- <div class="main-section">
+
+            <div class="current row align-items-center between">
+                <div class="col-7 col-md-8 column">
+                    <p class="city-name">Nukus</p>
+                    <p class="country">Uzbekistan</p>
+                    <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" class="icon">
+                    <p class="condition">Cloudy</p>
+                </div>
+                <div class="col-5 col-md-4 column">
+                    <h1 class="current-degree">3°C</h1>
+                    <p class="max-min"><span class="max-degree">3°C</span> / <span class="min-degree">-4°C</span></p>
+                    <p class="feelslike">Feels like: </p>
+                    <p class="wind">Wind speed: </p>
+                </div>
+            </div>
+
+            <div class="hourly row">
+                <div class="now col-4 col-md-2 all">
+                    <div class="time">NOW</div>
+                    <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" class="image">
+                    <div class="temp">4</div>
+                </div>
+                <div class="first col-4 col-md-2 all">
+                    <div class="time">NOW</div>
+                    <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" class="image">
+                    <div class="temp">4</div>
+                </div>
+                <div class="second col-4 col-md-2 all">
+                    <div class="time">NOW</div>
+                    <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" class="image">
+                    <div class="temp">4</div>
+                </div>
+                <div class="third col-4 col-md-2 all">
+                    <div class="time">NOW</div>
+                    <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" class="image">
+                    <div class="temp">4</div>
+                </div>
+                <div class="fourth col-4 col-md-2 all">
+                    <div class="time">NOW</div>
+                    <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" class="image">
+                    <div class="temp">4</div>
+                </div>
+                <div class="fifth col-4 col-md-2 all">
+                    <div class="time">NOW</div>
+                    <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" class="image">
+                    <div class="temp">4</div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</div>
+
+
+
+
+
+
+
+    <!-- script -->
+    <script src="service.js"></script>
+</body>
+</html>
